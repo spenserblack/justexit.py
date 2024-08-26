@@ -5,8 +5,9 @@
 Use exit() or Ctrl-D (i.e. EOF) to exit
 ```
 
-Do you get this often? I get this about once a day. With this tool, you can call `exit` from your
-Python console and it will *actually exit :tada:*
+Do you get this often? I get this about once a day. It's a habit from Shell and Ruby that I
+just can't break. With this tool, you can call `exit` from your Python console and it will
+*actually exit :tada:*
 
 ## Installation
 
