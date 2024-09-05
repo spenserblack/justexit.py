@@ -13,7 +13,12 @@ just can't break. With this tool, you can call `exit` from your Python console a
 
 First, download [`justexit.py`](justexit.py) somewhere. Then, wherever you define environment
 variables (e.g. `.bashrc`), define the `PYTHONSTARTUP` variable to point to the path of
-`justexit.py`.
+`justexit.py`. For example:
+
+```bash
+# .bashrc
+export PYTHONSTARTUP="$HOME/justexit.py"
+```
 
 Then, next time you're in an interactive Python console, you can just type `exit` and it will
 actually exit.
